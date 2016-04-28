@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>Home</title>
+    <meta name="keywords" content="PSD, HTML5, CSS3">
+    <meta name="author" content="Shekhar Vemuri | Shailaja Abburi">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg">
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/font-lineicons.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/style.css" id="mainstyle" type="text/css" media="all"/>
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function (f, b) {
+        if (!b.__SV) {
+            var a, e, i, g;
+            window.mixpanel = b;
+            b._i = [];
+            b.init = function (a, e, d) {
+                function f(b, h) {
+                    var a = h.split(".");
+                    2 == a.length && (b = b[a[0]], h = a[1]);
+                    b[h] = function () {
+                        b.push([h].concat(Array.prototype.slice.call(arguments, 0)))
+                    }
+                }
+
+                var c = b;
+                "undefined" !== typeof d ? c = b[d] = [] : d = "mixpanel";
+                c.people = c.people || [];
+                c.toString = function (b) {
+                    var a = "mixpanel";
+                    "mixpanel" !== d && (a += "." + d);
+                    b || (a += " (stub)");
+                    return a
+                };
+                c.people.toString = function () {
+                    return c.toString(1) + ".people (stub)"
+                };
+                i = "disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+                for (g = 0; g < i.length; g++)f(c, i[g]);
+                b._i.push([a, e, d])
+            };
+            b.__SV = 1.2;
+            a = f.createElement("script");
+            a.type = "text/javascript";
+            a.async = !0;
+            a.src = "//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";
+            e = f.getElementsByTagName("script")[0];
+            e.parentNode.insertBefore(a, e)
+        }
+    })(document, window.mixpanel || []);
+    mixpanel.init("f85ff990ab58f16650f4052f03b9e4a6");</script>
+    <!-- end Mixpanel -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-35640189-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body id="index">
+<script type="text/javascript">
+    mixpanel.track("indexPageLoad");
+</script>
+
+<!-- Preloader -->
+<div id="mask">
+    <div id="loader"><img src="assets/img/preloader.gif" alt="preloader"/></div>
+</div>
+<header id="mobileheader" class="navigation-bar-header light visible-xs"></header>
+
+<!-- Header -->
+<header id="header" class="navigation-bar-header light hidden-xs">
+    <div class="container">
+        <nav class="navigation">
+            <div class="navigation-txt visible-xs" data-toggle="dropdown">HOME</div>
+            <button class="navigation-toggle visible-xs" type="button" data-toggle="dropdown">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="navigation-bar navigation-bar-left">
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="index.html#schedule">SCHEDULE</a></li>
+                <li><a href="index.html#speakers">SPEAKERS</a></li>
+                <li><a href="index.html#sponsors">SPONSORS</a></li>
+                <li><a href="#map">LOCATION</a></li>
+                <li class="featured"><a href="register.html"><i class="fa fa-ticket fa-1x"></i>REGISTER NOW</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Schedule Section --
+
+<!-- End Schedule Section -->
+
+
+<!-- Speakers Section -->
+
+<section id="speakerdetails" class="section dark">
+    <div class="container">
+        <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12"></span></div>
+        <h3>Speaker Details</h3>
+        <br/>
+
+
+        <section class="row">
+            <span class="anchor" id="anirudh"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="200">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/anirudh-kondaveeti.png" class="img-responsive img-circle desaturate" alt="speaker-anirudh-kondaveeti">
+                </div>
+                <div class="name">Anirudh Kondaveeti</div>
+                <div class="sub">Principal Data Scientist, Pivotal</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Anirudh Kondaveeti is a Principal Data Scientist at Pivotal with a focus in Cyber Security and Spatio-Temporal Data Mining. He has developed statistical models and machine learning algorithms to detect insider and external threats and "needle-in-hay-stack"​ anomalies in machine generated network data for leading industries. He is also an active collaborator with universities to advance spatio-temporal data Science research and develop machine learning tools in open source platforms. He is the author of the most popular research dissertation in 2014 titled "Spatio-Temporal Data Mining to Detect Changes and Clusters in Trajectories", which deals with spatio-temporal data for connected vehichles. Prior to joining Pivotal, he received his B.Tech in Material Science from IIT Madras and Ph.D. in Industrial Engineering from Arizona State University (ASU) specializing in the area of machine learning and spatio-temporal data mining. His PhD research work at ASU focused on developing analytic models for spatio-temporal data, specifically trajectory data. He has developed models for clustering, outlier detection and change detection in real unstructured trajectory data obtained from the GPS traces of vehicles. </p>
+            </div>
+        </section>
+        <section class="row">
+            <span class="anchor" id="jim"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="200">
+                <div class="img-wrapper">
+                   <img src="assets/img/speakers/jim-bates.png" class="img-responsive img-circle desaturate" alt="Jim-Bates">
+                </div>
+                <div class="name">Jim Bates</div>
+                <div class="sub">Senior Systems Engineer, MapR</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Jim brings over 12 years of experience in systems and support engineering to his role as a Senior Systems Engineer at MapR. Jim was previously a Senior Systems Engineer for WANdisco. Prior to that, Jim was a Senior Systems Engineer for Spirent Communications, a multinational telecommunications test company. Jim also held various roles in systems engineering at Mu Dynamics. Earlier in his career, Jim held engineering positions at Tellabs and Advanced Fibre Communications. He began his career as an Officer in the US Army, where he designed and implemented mobile routing networks and jumped out of airplanes with Cisco routers to get the internet working over single channel tactical satellite networks. In addition to his technical roles, Jim has worked as a house framer, a fireman, a janitor, an infantryman, and a paratrooper. His very first job was that of a farmer and rancher, working alongside his father, a time during which he learned his most important life lessons. When not working for MapR, Jim enjoys carpentry work, welding, kayaking, hiking, and spending time with his family.
+Jim holds a BS/EE in Electrical Engineering from Texas A&M University.</p>
+            </div>
+        </section>
+        <section class="row">
+            <span class="anchor" id="michael"></span>
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="200">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/michael-sick.png" class="img-responsive img-circle desaturate" alt="speaker-michael-sick">
+                </div>
+                <div class="name">Michael Sick</div>
+                <div class="sub">Senior Manager, Financial Services, EY</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Michael A. Sick is a Senior Manager in the Financial Services Advisory Office at EY.  He has over 17 years of professional experience with enterprise Big Data, cloud architectures with an in-depth focus on Elasticsearch and HBase projects. He has worked on large scale application design and implementation across Insurance, Retail, Supply-Chain, Military, Education, Government, and Manufacturing .</p>
+            </div>
+        </section>
+        <section class="row">
+            <span class="anchor" id="sanjay"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="200">
+                <div class="img-wrapper">
+                     <img src="assets/img/speakers/sanjay-arora.png" class="img-responsive img-circle desaturate" alt="speaker-sanjay-arora">
+                </div>
+                <div class="name">Sanjay Arora</div>
+                <div class="sub">Manager, Financial Services, EY</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Sanjay K. Arora is a Manager in the Financial Services Advisory Office at EY.  He has over 10 years of work experience in software development, business intelligence, data science, and research in the financial services, government, non-profit, and university sectors.  Sanjay is a PhD candidate at the Georgia Institute of Technology and co-author on six peer-reviewed publications in the science, technology, and innovation management and policy domain. 
+                </p>
+            </div>
+        </section>
+        <section class="row">
+            <span class="anchor" id="sudhir"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="200">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/sudhir-vallamkondu.png" class="img-responsive img-circle desaturate" alt="Sudhir Vallamkondu">
+                </div>
+                <div class="name">Sudhir Vallamkondu</div>
+                <div class="sub">VP Software Engineering, iCrossing</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Sudhir is Vice President of Software Engineering for iCrossing, a global digital marketing agency. In this role, he leads the global software engineering team and various big data initiatives @ iCrossing. Big Data is his passion and he has many years of experience in building highly available and scalable big data/distributed computing applications using open source frameworks and cloud. He is a certified hadoop developer and holds various J2EE certifications. He holds a M.S in Computer Science from University Of Oklahoma. </p>
+            </div>
+        </section>
+      
+        <section class="row">
+            <span class="anchor" id="bill"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="200">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/bill-sager.jpg" class="img-responsive img-circle desaturate"
+                         alt="speaker-bill-sager">
+                </div>
+                <div class="name">Bill Sager</div>
+                <div class="sub">Principal SW Consultant, BMC</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+               <p>Bill Sager joined BMC in 2010 as a principal software consultant focused on BMC Control-M workload automation solutions for both distributed and mainframe environments. Prior to BMC, he held positions with CA, Cybermation and Platinum Technology. Sager holds a bachelor of science degree in business from National University.</p>
+
+                <p>
+                TOPIC: Oozie or Easy: Managing Hadoop Workflows the EASY Way<br/>
+               According to Gartner Inc., about 2/3 of all organizations are investing in Big Data and Hadoop but only 8% have production applications. Given the universal acceptance that Big Data is a huge competitive differentiator, it's likely that the companies that have not yet deployed Big Data applications are struggling to get their arms around this new technology. Industry experts agree that Hadoop and its ecosystem are extending the enterprise IT fabric rather replacing any major portions of it. This is particularly evident with workflow management where Hadoop jobs are growing in volume and complexity and are becoming more intertwined with many existing technologies. For IT organizations that already are overwhelmed by a proliferation of management tools, the ideal solution would be support for Hadoop's new workloads by the existing tools already in place, and more importantly, that already meet the required standards for governance, ease of use, reporting, planning and service level management. Such an approach will allow IT to leverage existing staff and mature best practices rather than having to re-invent the wheel yet again specifically for Hadoop.</p>
+            </div>
+        </section>
+          
+     
+                <section class="row">
+            <span class="anchor" id="hari"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/hari-gottipati.jpeg" class="img-responsive img-circle desaturate"
+                         alt="speaker-hari-gottipati">
+                </div>
+                <div class="name">Hari Gottipati </div>
+                <div class="sub">Director, Technical Architecture - Big Data capabilities</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Hari K Gottipati is a software professional, distinguished architect, thought leader, consultant,speaker and freelance writer who specializes in Open Systems, Java, internet scale computing/apps, architecture, big data, NoSQL, mobile, LBS and Internet Of Things.
+	                Expert in analyzing market landscape for startup ideas and moldingthem into successful products with the technical/competitive advantage. Regularly writes about bleeding edge technologies and his quotes can be often found in various technology news/magazines such as Gigaom, CNN Money, WSJ, Bloomberg Businessweek etc. A well known blogger and his blogs can be found at onjava.com and xml.com. Speaks
+>>at various events on the latest technologies, including iBeacons, big data, NoSQL, architecture and of course Java. Worked for many mobile startups, as well as big companies including Yahoo, Travelocity, and Motorola. Passionate about technologies and spends most of his time exploring bleeding edge software technologies. <br/> <br/>
+TOPIC:Practical Big Data : use cases, patterns, tools and technologies
+<br/><br/>
+                As businesses are realizing the power of big data analytics, they are capturing more and more data and using the data for decisions, actions and insights. In the process, the demands are increasing and the existing patterns are not meeting their needs. For ex: organizations are not satisfied with traditional analytics and they are moving towards real time and predictive analytics.Techniques and more technologies are evolving to handle massive data based on its format - structured, semi-structured, unstructured and velocity - batch, micro batch, real time.
+
+                </p>
+            </div>
+
+        </section>
+        <section class="row">
+            <span class="anchor" id="macmoore"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/mac-moore.png" class="img-responsive img-circle desaturate"
+                         alt="speaker-mac-moore">
+                </div>
+                <div class="name">Mac Moore </div>
+                <div class="sub">Solutions Engineer, Hortonworks</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>As a Solutions Engineer at Hortonworks, Mac helps enterprises improve the scale, performance, and cost effectiveness of their Big Data applications using various components from HDP, the industry leading open source Hadoop distribution. Prior to joining Hortonworks, Mac served as a Solutions Architect with multiple vendors in the In-Memory/Big Data space and also previously served as a Director of Information Systems in the higher-education sector. He has over 13 years of experience designing, developing, and integrating enterprise systems where performance and scalability are essential.
+
+                    <br/><br/>
+
+                </p>
+            </div>
+
+        </section>
+        <section class="row">
+            <span class="anchor" id="shanekumpf"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/shane-kumpf.png" class="img-responsive img-circle desaturate"
+                         alt="speaker-shane-kumpf">
+                </div>
+                <div class="name">Shane Kumpf </div>
+                <div class="sub">Solutions Engineer, Hortonworks</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Shane’s relentless curiosity for distributed computing has led to wearing many hats throughout his career; from Linux guru, to managing high volume web properties, to data, to software dev. As a Solutions Engineer at Hortonworks, he helps customers get the most value out of the only 100% open source Hadoop distribution, the Hortonworks Data Platform. Through real world experience, Shane has gained a strong foundation across many verticals, with experience ranging from fortune 100s to start ups. Shane has had the luxury of working with Hadoop full time since 2010, managing everything from single digit and two hundred node plus Hadoop clusters, and participating in the evolution of the modern data architecture.
+                    <br/><br/>
+
+                </p>
+            </div>
+
+        </section>
+
+        <section class="row">
+            <span class="anchor" id="ken"></span>
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/ken-buetow.jpg" class="img-responsive img-circle desaturate"
+                         alt="Ken Buetow">
+                </div>
+                <div class="name">Ken Buetow</div>
+                <div class="sub">Director, Computational Science and Informatics Core Program, Complex Adaptive Systems Initiative, ASU</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p> Dr. Ken Buetow is a human genetics and genomics researcher who leverages computational tools to understand complex traits such as cancer, liver disease, and obesity. Dr. Buetow currently serves as Director of Computational Sciences and Informatics program for Complex Adaptive Systems at Arizona State University (CAS@ASU) and is a professor in the School of Life Sciences in ASU’s College of Liberal Arts and Sciences.</p>
+            </div>
+        </section>
+
+
+        <section class="row">
+            <span class="anchor" id="abhishek"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/abhishek-mehta.png" class="img-responsive img-circle desaturate"
+                         alt="speaker-abhi-mehta">
+                </div>
+                <div class="name">Abhishek Mehta</div>
+                <div class="sub">Founder and CEO, Tresata</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Abhishek Mehta is the Founder & CEO of Tresata, the first analytics company to unleash the power of financial data and solve massive business problems. In a short span of 3 years, he has built Tresata as one of the fastest growing big data startups redefining how software is built, sold and delivered by building it all in the Hadoop stack.
+                    Abhishek is recognized as one of the most influential thinkers, visionaries and practitioners in the world of Big Data.  His history is a rich combination of stints as a radical technology expert and as a practical, in-the-trenches business leader. His experience includes 2 years as Executive in Residence at MIT Media Lab, Managing Director at Bank of America for 9 years and leadership positions at Cognizant Technology Solutions and Arthur Andersen.
+                    He is a much sought after speaker on the topics of data analytics, emerging business models and all customary intersections of the two.
+                </p>
+            </div>
+        </section>
+        <section class="row">
+            <span class="anchor" id="kathleen"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/kathleen-crowe-small.JPG" class="img-responsive img-circle desaturate"
+                         alt="speaker-kathleen-crowe">
+                </div>
+                <div class="name">Kathleen Crowe</div>
+                <div class="sub">Director of Data Science, Intel</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Kathleen Crowe is the Data Science Director for Big Data Solutions at Intel. In this role, she helps develop the analytics solutions capabilities of the Data Center Group by defining software and tooling requirements, and directing multiple analytics engagements.
+
+                    She is a native Arizonan and received her Ph.D. in Applied Mathematics at the University of Arizona. After time as a faculty member and researcher at several academic institutions she changed career paths, joining Fannie Mae as a software engineer and algorithm developer. From there she moved into data science and worked for FICO and Opera Solutions before joining Intel Labs in August of 2013.
+
+                    In her spare time she is a competitive rower and an international rowing official, and participates in theater and music endeavors ranging from fully-staged productions to pub sings.</p>
+            </div>
+        </section>
+        <section class="row">
+            <span class="anchor" id="nitinmotgi"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/nitin-motgi.jpg" class="img-responsive img-circle desaturate"
+                         alt="speaker-nitin-motgi">
+                </div>
+                <div class="name">Nitin Motgi</div>
+                <div class="sub">Co-Founder and CTO, Cask</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Nitin Motgi is Founder and CTO of Cask, where he is responsible for developing the company’s long-term technology, driving company engineering initiatives and collaboration.
+                    Prior to Cask, Nitin was at Yahoo! working on a large-scale content optimization system externally known as C.O.R.E. He previously held senior engineering roles at Altera and FedEx.</p>
+            </div>
+        </section>
+        <section class="row">
+            <span class="anchor" id="johnschneider"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/john-schneider.jpg" class="img-responsive img-circle desaturate"
+                         alt="speaker-john-schneider">
+                </div>
+                <div class="name">John Schneider</div>
+                <div class="sub">CTO, Apixio</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>John Schneider brings to Apixio over 25 years of software technology and product development, managing research, and product and engineering experiences. Most recently John was the General Manager of the Adaptive Learning Products and the Chief Product Architect at Apollo Group. Prior to Apollo, John was CTO of CloudTalk Inc. where his team developed a multitenant web and mobile messaging communications platform. At GE Healthcare, John was a director of software development and VP, developing instrumentation and informatics solutions that helped produce the human genome and discover gene function. John holds a BSE degree from Columbia University School of Engineering.</p>
+            </div>
+        </section>
+
+		<section class="row">
+            <span class="anchor" id="avinash"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/avinash-ramineni.png" class="img-responsive img-circle desaturate"
+                         alt="Avinash Ramineni">
+                </div>
+                <div class="name">Avinash Ramineni</div>
+                <div class="sub">Principal, Clairvoyant</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p> Avinash Ramineni is a principal at Clairvoyant and leads the engineering efforts  in the big data space. He is a passionate technologist with a drive to understand the bigger picture, vision and convert them into pragmatic, implementable solutions. He has over 13 years of experience in engineering and architecting systems at large scale. He specializes in providing solutions in the areas of Big data, Cloud , NoSQL,SOA and Event Driven Architectures. Before Clairvoyant, Avinash was a Principal Engineer at Apollo Group and was responsible for innovation and technical guidance for all the product development efforts. Avinash Holds  M.S in Computer Science from Arizona State University.</p>
+            </div>
+        </section>
+        
+        <section class="row">
+            <span class="anchor" id="rickconrad"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/rick-conrad.png" class="img-responsive img-circle desaturate"
+                         alt="Rick Conrad">
+                </div>
+                <div class="name">Rick Conrad</div>
+                <div class="sub">Pre-sales engineer, Cloudera</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Rick is a Cloudera Pre-Sales Engineer and Hadoop Enthusiast.</p>
+            </div>
+        </section>
+        
+		<section class="row">
+            <span class="anchor" id="partha"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/partha-saha.jpg" class="img-responsive img-circle desaturate"
+                         alt="Partha Saha">
+                </div>
+                <div class="name">Partha Saha</div>
+                <div class="sub"></div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Partha Saha received a Ph.D. in Physics from MIT in 1997 where he built a laser interferometer to study gravitational waves.  Since 1997, he has been in Silicon valley, first at Imatron, inc., developing ultrafast Computed Tomography algorithms before the start-up got acquired by GE Medical.  Next, at a Berkeley start-up, he developed scalable systems for VoIP (voice over IP) telephony bootstrap and management before VoIP became mainstream. In 2003, he joined a small group at Amazon developing Amazon web services, and defined and developed the first version of NoSQL web service called Simple DB.  In 2005, he joined Yahoo! inc. where he dived into understanding and solving the problems of "big data".  He built Data Highway, a real-time log ELT and analytical warehouse on logs obtained from a global spread of 16,000 web servers every minute, and tested it with a real time data application doing Search Engine Marketing (spend) optimization.  He then went on to create a scalable near-real-time data system for display advertising auction following an acquisition by Yahoo! of the Right Media Exchange. Just before joining Microsoft last year, he built a data-driven curriculum personalization system for students at the University of Phoenix called ALE (Adaptive Learning Engine).</p>
+            </div>
+        </section>
+        
+        <section class="row">
+            <span class="anchor" id="arnold"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/michael-arnold.png" class="img-responsive img-circle desaturate"
+                         alt="Michael Arnold">
+                </div>
+                <div class="name">Michael Arnold</div>
+                <div class="sub">Principal Systems Engineer, Clairvoyant</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Michael Arnold is a Principal Systems Engineer who made the mistake of volunteering to deploy "some application called Hadoop." Many years later, he is now quite knowledgeable in Hadoop and has run several small, beefy clusters. Michael's interests include understanding hardware and operating systems and how to automate and maintain their installation and configuration.</p>
+            </div>
+        </section>
+        
+         <section class="row">
+            <span class="anchor" id="bhavesh"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/bhavesh-patel.jpg" class="img-responsive img-circle desaturate"
+                         alt="Bhavesh Patel">
+                </div>
+                <div class="name">Bhavesh Patel</div>
+                <div class="sub">Principal Solutions Architect, Apollo Education Group</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Bhavesh Patel is a solutions architect with Apollo Education Group, focusing on data and data web services management. He is an open source technology proponent, and responsible for introducing several open source data technologies at AEG. He is a big believer of low cost technology solutions to solve complex problems. He is currently leading hadoop engineering at AEG, and been with the hadoop engineering team since past 3 years. His team is running hadoop in production environment since past 5 years.</p>
+            </div>
+        </section>
+        
+        <section class="row">
+            <span class="anchor" id="vishnu"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/vishnu-vyas.jpg" class="img-responsive img-circle desaturate"
+                         alt="vishnu-vyas">
+                </div>
+                <div class="name">Vishnu Vyas</div>
+                <div class="sub">Principal Scientist, Apixio</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Vishnu Vyas is Principal Scientist at Apixio working on Apixio’s scalable big data platform and predictive analytics for health it. Previously, Vishnu Vyas worked at Yahoo Search’s Applied Sciences team working on vertical content and relevance. Vishnu Vyas attended The University of Southern California and has a Masters in Computer Science.</p>
+            </div>
+        </section>
+        
+         <section class="row">
+            <span class="anchor" id="tomasz"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/tomasz-stechly.jpg" class="img-responsive img-circle desaturate"
+                         alt="tomasz-stechly">
+                </div>
+                <div class="name">Tomasz Stechly</div>
+                <div class="sub">Principal Platform Architect at Early Warning</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Tomasz is a 19-year veteran of the IT industry both as an independent consultant and key developer with an extensive background in architecture and design of software and microelectonics.<br/>He worked in many diverse application domains including aerospace, telecommunication, health care, banking, and education.
+Tomasz continues to be an active author, mentor, open source contributor, and member of Association for Computing Machinery and Aviation Consulting Association,
+</p>
+            </div>
+        </section>
+        
+        <section class="row">
+            <span class="anchor" id="prathima"></span>
+
+            <div class="col-md-2 col-sm-2 animated hiding" data-animation="fadeInLeft" data-delay="100">
+                <div class="img-wrapper">
+                    <img src="assets/img/speakers/prathima.jpg" class="img-responsive img-circle desaturate"
+                         alt="prathima-donapudi">
+                </div>
+                <div class="name">Prathima Donapudi</div>
+                <div class="sub">Enterprise Software Engineer at Early Warning</div>
+            </div>
+            <div class="col-md-10 col-sm-10 text-left animated hiding" data-animation="fadeInRight" data-delay="200">
+                <p>Prathima Donapudi is a Big Data Architect at Early Warning Services LLC with 14+ years of hands-on expertise in multiple aspects of Information Technology, including the design and development of high-volume/high-availability distributed applications, enterprise architecture, platform engineering and support. In her current role, she helps solution big data applications, platform architecture and ensuring the hadoop platform is PCI compliant. She received her Masters’ in Computer Science from Arizona State University. Previously, she served as a Development Manager at Acxiom,  Platform Architect, SOA architect and Lead Technical Architect in Java Center of Excellence at American Express. In her spare time she likes to chase her 3 year old son and enjoys outdoors.</p>
+            </div>
+        </section>
+
+        
+       </section>
+<!-- End Speakers Section -->
+
+
+
+
+<footer id="footer">
+
+</footer>
+
+<div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>
+<![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js?ver=1"></script>
+<!--<![endif]-->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.nav.js"></script>
+<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+<script type="text/javascript" src="assets/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+<script type="text/javascript" src="assets/js/waypoints-sticky.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<script type="text/javascript" src="assets/js/mapscript.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
+</body>
+</html>
